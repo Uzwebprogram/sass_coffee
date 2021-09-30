@@ -1,0 +1,70 @@
+.main__hero{
+    background-image: url(./../image/Bitmap.png);
+    width: 1280px;
+    height: 600px;
+    border-radius: 10px;
+    margin-bottom: 195px;
+
+    &--heading{
+        margin: 0;
+        padding: 0;
+        width: 593px;
+        height: 145px;
+        left: 0%;
+        right: 0%;
+        top: calc(50% - 145px/2 - 55px);    
+        font-family: "Fraunces", "Arial", sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FEFCF7;
+        margin-bottom: 32px;
+    }
+    &--box{
+        width: 493px;
+        height: 367px;
+        padding-top: 120px;
+        padding-left: 87px;
+    }
+
+
+    &--text{
+        font-family:"Hind Madurai" , "Barlow" , "Arial"  ;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        width: 440px;
+        height: 78px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 56px;
+    }
+
+    &--button{
+        background: #0E8784;
+        border-radius: 6px;
+        font-family:"Hind Madurai" , "Fraunces" , "Arial"  ;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+        width: 217px;
+        height: 56px;
+        border: none;
+        cursor: pointer;   
+
+        &:active{
+            background: #66D2CF;
+            border-radius: 6px; 
+        }
+    }
+    
+
+}

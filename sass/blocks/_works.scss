@@ -1,0 +1,102 @@
+.works{
+    margin-top: 350px;
+    width: 1045px;
+    height: 565px;
+
+    &__heading{
+        font-family:"Hind Madurai" , "Fraunces" , "Arial"  ;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin-bottom: 95px;
+    }
+    &__pick--item{
+        width: 1045px;
+        height: 565px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+    &__diver{
+        width: 760px;
+        height: 1px;
+        border: 2px solid #FDD6BA;
+        background-color:#FDD6BA ;
+        
+    }
+    &__pick--item--list{
+        list-style-type: none;
+        width: 285px;
+        height: 355px;
+        margin-top: 82px;
+
+        &::before{
+            content: "";
+            border: 2px solid #0E8784;
+            background: #fefcf7;
+            display: block;
+            border-radius: 50px; 
+            width: 31px;
+            height: 31px;
+            -webkit-transform: translateY(-100px);
+            -ms-transform: translateY(-100px);
+            transform: translateY(-100px);
+            margin-left: -5px;
+        }
+    }
+    &__pick--item--list--heading--coffee{
+        font-family:"Hind Madurai" , "Fraunces" , "Arial"  ;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+    }
+    &__pick--item--list--heading--3--coffee{
+        font-family:"Hind Madurai" , "Fraunces" , "Arial"  ;    
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        width: 255px;
+        height: 73px;
+    }
+    &__pick--item--list--padding--coffee{
+        font-family:"Hind Madurai" , "Barlow" , "Arial"  ;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    
+    }
+    &__pick--button{
+        background: #0E8784;
+        border-radius: 6px;
+        font-family:"Hind Madurai" , "Fraunces" , "Arial"  ;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+        width: 217px;
+        height: 56px;
+        border: none;
+        cursor: pointer;   
+        margin-top: 64px;
+
+        &:active{
+       background: #66D2CF;
+       border-radius: 6px;
+        }
+    }
+}

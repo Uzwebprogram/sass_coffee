@@ -1,0 +1,180 @@
+.choose{
+    width: 1280px;
+    height: 577px;
+    background-color: #2C343E;
+    border-radius: 10px;
+    margin-top: 200px;
+
+    &__us{
+        margin:  0 auto;
+        text-align: center; 
+
+            &--heading{
+            font-family:"Hind Madurai" , "Fraunces" , "Arial"  ;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            color: #FEFCF7;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 32px;
+            padding-top: 100px;
+                }
+
+
+        &--padding{
+            font-family:"Hind Madurai" , "Barlow" , "Arial"  ;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            width: 528px;
+            height: 80px;
+            margin: 0 auto;
+            margin-bottom: 86px;
+        }
+    }
+
+    &__box{
+        width: 1110px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    &__box--coffee{
+        width: 350px;
+        height: 382px;
+        background: #0E8784;
+        border-radius: 8px;
+    }
+
+    &__box--surip{
+        width: 350px;
+        height: 382px;
+        background: #0E8784;
+        border-radius: 8px;
+    }
+
+    &__box--speed{
+        width: 350px;
+        height: 382px;
+        background: #0E8784;
+        border-radius: 8px;
+    }
+
+    &__box-coffee--heading{
+        font-family:"Hind Madurai" , "Fraunces" , "Arial"  ;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #FEFCF7;
+
+        &::before{
+            background-image: url(./../image/coffee.png);
+            content: "";
+            display: block; 
+            width: 72px;
+            height: 72px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-top: 83px;
+            margin-left: 136px;
+            margin-bottom: 57px;
+        }
+    }
+
+    &__box--surip--heading{
+        font-family:"Hind Madurai" , "Fraunces" , "Arial"  ;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #FEFCF7;
+
+        &::before{
+            background-image: url(./../image/surip.png);
+            content: "";
+            display: block; 
+            width: 72px;
+            height: 72px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-top: 83px;
+            margin-left: 136px;
+            margin-bottom: 57px;
+        }
+    }
+
+    &__box--speed--heading{
+        font-family:"Hind Madurai" , "Fraunces" , "Arial"  ;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #FEFCF7;
+
+        &::before{
+            background-image: url(./../image/speed.png);
+            content: "";
+            display: block; 
+            width: 72px;
+            height: 50px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-top: 103px;
+            margin-left: 136px;
+            margin-bottom: 57px; 
+        }
+    }
+
+    &__box--coffee--padding{
+        font-family:"Hind Madurai" , "Barlow" , "Arial"  ;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+        width: 255px;
+        height: 78px;
+        margin-left: 47px;
+    }
+    &__box--surip--padding{
+        font-family:"Hind Madurai" , "Barlow" , "Arial"  ;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+        width: 255px;
+        height: 78px;
+        margin-left: 47px;
+    }
+    &__box--speed--padding{
+        font-family:"Hind Madurai" , "Barlow" , "Arial"  ;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+        width: 255px;
+        height: 78px;
+        margin-left: 47px;
+    }
+    
+
+    
+
+}
