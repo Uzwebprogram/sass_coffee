@@ -1,0 +1,39 @@
+.main-our{
+    display: flex;
+    width: 1150px;
+    margin: 0 auto;
+    margin-bottom: 256px;
+
+    &__leftside{
+        display: flex;
+
+        &--image{
+            border-radius: 8px;
+            margin-right: 125px;
+        }
+    }
+    &__rightside{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        &--heading{
+            font-family: "Fraunces" , "Arial" , sans-serif ;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            color: #333D4B;
+        }
+        &--padding{
+            font-family: Barlow;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            color: #333D4B;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+    }
+    
+}

@@ -1,0 +1,34 @@
+.about-main__hero{
+    background-image: url(./../../image-about/hero-about.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1280px;
+    height: 450px; 
+    border-radius: 10px;
+    margin-bottom: 168px;
+
+    &--leftside{
+        width: 445px;
+        height: 176px;
+        padding-top: 137px;
+        margin-left: 85px ;
+        &-heading{
+            font-family: "Fraunces" , "Arial" , sans-serif ;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            color: #FEFCF7;
+        
+            }
+        &-padding{
+        font-family: "Barlow" , "Arial" , sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        }
+    }
+
+}

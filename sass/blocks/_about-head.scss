@@ -1,0 +1,86 @@
+.main-head{
+    width: 1045px;
+    height: 366px;
+
+    &__padding{
+        font-family: "Fraunces" , "Arial" , sans-serif ;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin-left: 42px;
+        margin-top: 168px;
+    }
+    &_list{
+       display: flex;
+       justify-content: space-between;
+
+         &__item{
+            list-style-type: none;
+            width: 285px;
+            height: 167px;
+
+            &--heading1{
+            font-family: "Fraunces" , "Arial" , sans-serif ;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 36px;
+            color: #333D4B;
+
+            &::before{
+                content: "";
+                background-image: url(./../../image-about/icon1-about.svg);
+                width: 41px;
+                height: 49px;
+                display: block;
+                margin: 72px 0 46px;
+             }
+            }
+            &--heading2{
+                font-family: "Fraunces" , "Arial" , sans-serif ;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 32px;
+                line-height: 36px;
+                color: #333D4B;
+    
+                &::before{
+                    content: "";
+                    background-image: url(./../../image-about/icon2-about.svg);
+                    width: 52px;
+                    height: 50px;
+                    display: block;
+                    margin: 72px 0 46px;
+                 }
+                }
+                &--heading3{
+                    font-family: "Fraunces" , "Arial" , sans-serif ;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 32px;
+                    line-height: 36px;
+                    color: #333D4B;
+        
+                     &::before{
+                        content: "";
+                        background-image: url(./../../image-about/icon3-about.svg);
+                        width: 49px;
+                        height: 44px;
+                        display: block;
+                        margin: 72px 0 46px;
+                     }
+                    }
+                    &--padding{
+                        font-family: "Barlow" , "Arial" , sans-serif  ;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 26px;
+                        color: #333D4B;
+                    }
+        }
+    }
+
+}
